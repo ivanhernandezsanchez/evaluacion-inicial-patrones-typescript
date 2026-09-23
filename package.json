@@ -1,0 +1,22 @@
+{
+  "name": "evaluacion-inicial-patrones-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "singleton": "node dist/01-singleton/index.js",
+    "factory": "node dist/02-factory/index.js",
+    "dao": "node dist/03-dao/index.js",
+    "di": "node dist/04-dependency-injection/index.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
